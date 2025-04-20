@@ -3,11 +3,15 @@ import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 
 const Home = lazy(() => import("home"));
+const Animes = lazy(() => import("animes"));
+const Chapter = lazy(() => import("chapter"));
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route index element={<Home />} path="/" />
+      <Route index element={<Animes />} path="/animes" />
+      <Route index element={<Chapter />} path="/chapter" />
       <Route element={<NotFound />} path="*" />
     </Routes>
   );

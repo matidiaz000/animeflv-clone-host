@@ -13,6 +13,7 @@ const Layout = ({ children }: IProps) => {
         logo={AnimeFLVLogo}
         leftContent={
           <>
+          {/* 
             <NavLink
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
               to="#"
@@ -21,6 +22,19 @@ const Layout = ({ children }: IProps) => {
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
               to="#"
             >Explorar</NavLink>
+          */}
+            <NavLink
+              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
+              to="/"
+            >Home</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
+              to="/animes"
+            >Animes</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
+              to="/chapter"
+            >Chapter</NavLink>
           </>
         }
         rightContent={

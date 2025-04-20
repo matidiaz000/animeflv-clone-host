@@ -5,6 +5,8 @@ export default createModuleFederationConfig({
   name: process.env.NAME,
   remotes: {
     home: process.env.MF_HOME as string,
+    animes: process.env.MF_ANIMES as string,
+    chapter: process.env.MF_CHAPTER as string,
   },
   shared: {
     ...dependencies,

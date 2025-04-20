@@ -2,7 +2,7 @@ import { dependencies } from './package.json';
 import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin';
 
 export default createModuleFederationConfig({
-  name: 'host',
+  name: process.env.NAME,
   remotes: {
     home: process.env.MF_HOME as string,
   },

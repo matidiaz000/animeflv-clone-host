@@ -4,18 +4,24 @@ import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin'
 export default createModuleFederationConfig({
   name: 'host',
   remotes: {
-    remote: 'remote@http://localhost:8081/_next/static/chunks/remoteEntry.js',
+    home: process.env.MF_HOME as string,
   },
-  shareStrategy: 'loaded-first',
   shared: {
     ...dependencies,
     react: {
       singleton: true,
+      eager: true,
       requiredVersion: dependencies.react,
     },
     'react-dom': {
       singleton: true,
+      eager: true,
       requiredVersion: dependencies['react-dom'],
+    },
+    'react-router-dom': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['react-router-dom'],
     },
   },
 });

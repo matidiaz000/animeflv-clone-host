@@ -25,5 +25,10 @@ export default createModuleFederationConfig({
       eager: true,
       requiredVersion: dependencies['react-router-dom'],
     },
+    '@matidiaz000/animeflv-clone-library': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@matidiaz000/animeflv-clone-library'],
+    },
   },
 });

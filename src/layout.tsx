@@ -29,8 +29,12 @@ const Layout = ({ children }: IProps) => {
             >Home</NavLink>
             <NavLink
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
-              to="/animes"
+              to="/browse"
             >Animes</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
+              to="/browse/name-anime"
+            >Anime</NavLink>
             <NavLink
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
               to="/chapter"

@@ -11,7 +11,7 @@ env:
   PROD: "https://animeflv-clone-host.vercel.app/"
   MF_HOME: "home@https://animeflv-clone-home.vercel.app/remoteEntry.js"
   MF_ANIMES: "animes@https://animeflv-clone-animes.vercel.app/remoteEntry.js"
-  MF_CHAPTER: "https://animeflv-clone-chapter.vercel.app/remoteEntry.js"
+  MF_CHAPTER: "chapter@https://animeflv-clone-chapter.vercel.app/remoteEntry.js"
 
 on:
   # Runs on pushes targeting the default branch
@@ -80,7 +80,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./
+          path: ./dist
 
   # Deployment job
   deploy:

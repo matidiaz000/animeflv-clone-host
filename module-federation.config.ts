@@ -8,6 +8,7 @@ export default createModuleFederationConfig({
     animes: process.env.MF_ANIMES as string,
     chapter: process.env.MF_CHAPTER as string,
   },
+  dts: false,
   shared: {
     ...dependencies,
     react: {

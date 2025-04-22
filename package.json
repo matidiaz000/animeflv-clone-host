@@ -6,13 +6,13 @@
   "scripts": {
     "build": "rsbuild build",
     "check": "biome check --write",
-    "dev": "rsbuild dev --open --port 8080",
+    "dev": "rsbuild dev",
     "format": "biome format --write",
     "lint": "eslint .",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@matidiaz000/animeflv-clone-library": "^0.0.9",
+    "@matidiaz000/animeflv-clone-library": "^0.0.16",
     "@module-federation/enhanced": "^0.12.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",

@@ -4,15 +4,6 @@
 #
 name: Deploy Next.js site to Pages
 
-env:
-  # [key]:"[value]"
-  PORT: "8080"
-  NAME: "host"
-  PROD: "https://animeflv-clone-host.vercel.app/"
-  MF_HOME: "home@https://animeflv-clone-home.vercel.app/remoteEntry.js"
-  MF_ANIMES: "animes@https://animeflv-clone-animes.vercel.app/remoteEntry.js"
-  MF_CHAPTER: "chapter@https://animeflv-clone-chapter.vercel.app/remoteEntry.js"
-
 on:
   # Runs on pushes targeting the default branch
   push:

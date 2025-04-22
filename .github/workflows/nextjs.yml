@@ -4,16 +4,6 @@
 #
 name: Deploy Next.js site to Pages
 
-env:
-  # [key]:"[value]"
-  PORT: "8080"
-  PATH: "http://localhost:$PORT/"
-  NAME: "host"
-  PROD: "https://animeflv-clone-host.vercel.app/"
-  MF_HOME: "home@https://animeflv-clone-home.vercel.app/remoteEntry.js"
-  MF_ANIMES: "animes@https://animeflv-clone-animes.vercel.app/remoteEntry.js"
-  MF_CHAPTER: "https://animeflv-clone-chapter.vercel.app/remoteEntry.js"
-
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -35,9 +25,20 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  # [key]:"[value]"
+  PORT: "8080"
+  PATH: "http://localhost:$PORT/"
+  NAME: "host"
+  PROD: "https://animeflv-clone-host.vercel.app/"
+  MF_HOME: "home@https://animeflv-clone-home.vercel.app/remoteEntry.js"
+  MF_ANIMES: "animes@https://animeflv-clone-animes.vercel.app/remoteEntry.js"
+  MF_CHAPTER: "https://animeflv-clone-chapter.vercel.app/remoteEntry.js"
+
 jobs:
   # Build job
   build:
+    
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

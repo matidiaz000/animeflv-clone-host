@@ -31,5 +31,15 @@ export default createModuleFederationConfig({
       eager: true,
       requiredVersion: dependencies['@matidiaz000/animeflv-clone-library'],
     },
+    '@apollo/client': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@apollo/client'],
+    },
+    'graphql': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['graphql'],
+    },
   },
 });

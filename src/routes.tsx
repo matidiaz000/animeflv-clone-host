@@ -9,9 +9,9 @@ const Chapter = lazy(() => import("chapter"));
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route index element={<Home />} path="/" />
-      <Route element={<Animes />} path="/browse/*" />
-      <Route element={<Chapter />} path="/chapter/*" />
+      <Route index element={<Home />} />
+      <Route element={<Animes />} path="buscar/*" />
+      <Route element={<Chapter />} path="anime/*" />
       <Route element={<NotFound />} path="*" />
     </Routes>
   );

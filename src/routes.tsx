@@ -10,8 +10,8 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route index element={<Home />} />
-      <Route element={<Animes />} path="buscar/*" />
-      <Route element={<Chapter />} path="anime/*" />
+      <Route element={<Animes />} path="/buscar/*" />
+      <Route element={<Chapter />} path="/anime/*" />
       <Route element={<NotFound />} path="*" />
     </Routes>
   );

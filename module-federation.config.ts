@@ -1,3 +1,4 @@
+import path from 'path';
 import { dependencies } from './package.json';
 import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin';
 
@@ -8,6 +9,9 @@ export default createModuleFederationConfig({
     animes: process.env.MF_ANIMES as string,
     chapter: process.env.MF_CHAPTER as string,
   },
+  runtimePlugins: [
+    path.join(__dirname, './src/runtime-plugin/fallback.ts'),
+  ],
   dts: false,
   shared: {
     ...dependencies,

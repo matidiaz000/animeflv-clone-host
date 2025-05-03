@@ -25,20 +25,12 @@ const Layout = ({ children }: IProps) => {
           */}
             <NavLink
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
-              to="/"
-            >Home</NavLink>
+              to="#"
+            >Noticias</NavLink>
             <NavLink
               className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
-              to="/browse"
-            >Animes</NavLink>
-            <NavLink
-              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
-              to="/browse/name-anime"
-            >Anime</NavLink>
-            <NavLink
-              className={({ isActive }) => `${isActive && ''} link-light p-3 link-offset-3 link-underline-light link-underline-opacity-0 link-underline-opacity-100-hover`}
-              to="/chapter"
-            >Chapter</NavLink>
+              to="#"
+            >Explorar</NavLink>
           </>
         }
         rightContent={

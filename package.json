@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@apollo/client": "3.13.8",
-    "@matidiaz000/animeflv-clone-library": "0.0.33",
+    "@matidiaz000/animeflv-clone-library": "0.0.37",
     "@module-federation/enhanced": "^0.12.0",
     "graphql": "16.10.0",
     "react": "19.1.0",

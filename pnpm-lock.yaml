@@ -12,8 +12,8 @@ importers:
         specifier: 3.13.8
         version: 3.13.8(@types/react@19.1.2)(graphql@16.10.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@matidiaz000/animeflv-clone-library':
-        specifier: 0.0.38
-        version: 0.0.38(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 0.0.40
+        version: 0.0.40(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
       '@module-federation/enhanced':
         specifier: ^0.12.0
         version: 0.12.0(@rspack/core@1.3.7(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
@@ -366,11 +366,12 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@matidiaz000/animeflv-clone-library@0.0.38':
-    resolution: {integrity: sha512-4/XcBA+p2iORNSRXbFHomePO2cbZ4uszRfGeqkcL/jvpOSzCxmtbVne5vqFc5+VnULmxa+TxbqrEZ/XfmwadOw==, tarball: https://npm.pkg.github.com/download/@matidiaz000/animeflv-clone-library/0.0.38/6c34f1c661e7d5b0b864adbecbb676bee051a42c}
+  '@matidiaz000/animeflv-clone-library@0.0.40':
+    resolution: {integrity: sha512-A3BxAl3xu1tzYYqWmhrsK0oKlVxdMNgoNaB/r7mn+M6TKvTGQ7VC4GDtwusAeOO9kO+7IdFtFGLfFmJtbHvYQQ==, tarball: https://npm.pkg.github.com/download/@matidiaz000/animeflv-clone-library/0.0.40/b75bdd5c16c1f6bf99ff5dd7d052e39b7bf7f463}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
+      react-router-dom: '>=7.5.1'
 
   '@modern-js/node-bundle-require@2.65.1':
     resolution: {integrity: sha512-XpEkciVEfDbkkLUI662ZFlI9tXsUQtLXk4NRJDBGosNnk9uL2XszmC8sKsdCSLK8AYuPW2w6MTVWuJsOR0EU8A==}
@@ -2164,10 +2165,11 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@matidiaz000/animeflv-clone-library@0.0.38(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@matidiaz000/animeflv-clone-library@0.0.40(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
+      react-router-dom: 7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
   '@modern-js/node-bundle-require@2.65.1':
     dependencies:

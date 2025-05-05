@@ -16,4 +16,7 @@ export default defineConfig({
       'Access-Control-Allow-Origin': '*',
     },
   },
+  html: {
+    title: 'Ver Anime Online HD — AnimeFLV',
+  },
 });

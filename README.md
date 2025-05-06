@@ -15,9 +15,5 @@ This project is develop with microfrontend methodology, for this reason the proj
 - **Documentation** - [Github](https://github.com/matidiaz000/animeflv-clone-docs/) - [Demo](https://animeflv-clone-docs.vercel.app/)
 - **Configuration** - [Github](https://github.com/matidiaz000/animeflv-clone-host/) - [Demo](https://animeflv-clone-host.vercel.app/)
 - **Home** - [Github](https://github.com/matidiaz000/animeflv-clone-home/) - [Demo](https://animeflv-clone-home.vercel.app/)
-- **List** - [Github](https://github.com/matidiaz000/animeflv-clone-animes/) - [Demo](https://animeflv-clone-animes.vercel.app/)
-- **Description** - [Github](https://github.com/matidiaz000/animeflv-clone-chapter/) - [Demo](https://animeflv-clone-chapter.vercel.app/)
-
-## Description
-
-This project is to showcase my knowledge in Microfrontend, Clean Architecture, ci/cd & React + Rsbuild + SASS.
+- **Animes** - [Github](https://github.com/matidiaz000/animeflv-clone-animes/) - [Demo](https://animeflv-clone-animes.vercel.app/)
+- **Chapter** - [Github](https://github.com/matidiaz000/animeflv-clone-chapter/) - [Demo](https://animeflv-clone-chapter.vercel.app/)

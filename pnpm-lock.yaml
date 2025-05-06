@@ -12,8 +12,8 @@ importers:
         specifier: 3.13.8
         version: 3.13.8(@types/react@19.1.2)(graphql@16.10.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@matidiaz000/animeflv-clone-library':
-        specifier: 0.0.42
-        version: 0.0.42(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
+        specifier: 1.0.0
+        version: 1.0.0(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
       '@module-federation/enhanced':
         specifier: ^0.12.0
         version: 0.12.0(@rspack/core@1.3.7(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
@@ -366,8 +366,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@matidiaz000/animeflv-clone-library@0.0.42':
-    resolution: {integrity: sha512-uWJsibfbHwHA/00yvbqdkPADUlEt42f4B3RGcQLdQusRIx9UKI6Jr+3hwymp92XUKDD+cqrskyu8yvwtKCeeLg==, tarball: https://npm.pkg.github.com/download/@matidiaz000/animeflv-clone-library/0.0.42/c128f9c89272a125337f1d2ebd168d9a3833878d}
+  '@matidiaz000/animeflv-clone-library@1.0.0':
+    resolution: {integrity: sha512-vFTTUMNbCFNGGH4VggGDbUFvUwxgKCk1dywnUsa/NkP79Gc4i3jds7bcyoWqNNvRHBMisjcysDP3gGH5go/gqA==, tarball: https://npm.pkg.github.com/download/@matidiaz000/animeflv-clone-library/1.0.0/e8cb2d22249b925bea96d0031ee2335a96a42b74}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -2165,7 +2165,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@matidiaz000/animeflv-clone-library@0.0.42(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)':
+  '@matidiaz000/animeflv-clone-library@1.0.0(react-dom@19.1.0(react@19.1.0))(react-router-dom@7.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
